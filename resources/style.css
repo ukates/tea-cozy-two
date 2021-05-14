@@ -8,6 +8,14 @@ body {
     margin: 0; 
 }
 
+h2,
+h3, 
+h4 {
+    margin: 0; 
+    padding: 10px; 
+}
+
+/*nav*/
 header {
     border-bottom: 1px solid seashell;
     position: fixed; 
@@ -19,6 +27,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: black;
 }
 
 .navbar img {
@@ -36,4 +45,22 @@ header {
     color: seashell;
     text-decoration: underline;
     padding: 0 10px; 
+}
+/*mission*/
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 700px;
+    width: 1200px;
+    padding-top: 70px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-statement {
+    display: block;
+    width: 100%;
+    align-items: center;
+    background-color: black;
 }
